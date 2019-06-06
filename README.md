@@ -1,6 +1,6 @@
 class file : class_vogn.py
 
-main file : 
+launch file : class_results_m.py
 
 # active_learning
 
