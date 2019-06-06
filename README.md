@@ -1,11 +1,24 @@
+class file : class_vogn.py
+
+main file : 
+
 # active_learning
 
-VOGN:
+VOGN code : https://arxiv.org/abs/1807.04489
 
-# Natural-Gradient VI for Bayesian Neural Nets
-Minimal code to run Variational Online Gauss-Newton(VOGN) algorithm on MNIST and CIFAR10 datasets using Convolutional Neural Networks. The optimizer is compatible with any PyTorch model containing fully connected or convolutional layers. Layers without trainable parameters such as pooling layers or batch normalization layers with `affine = False` can also be used. 
+from:
 
-## Requirements
-The project has following dependencies:
-- Python >= 3.5
-- PyTorch == 1.0
+@ARTICLE{2018arXiv180704489E,
+       author = {{Emtiyaz Khan}, Mohammad and {Nielsen}, Didrik},
+        title = "{Fast yet Simple Natural-Gradient Descent for Variational Inference in Complex Models}",
+      journal = {arXiv e-prints},
+     keywords = {Statistics - Machine Learning, Computer Science - Information Theory, Computer Science - Machine Learning, Statistics - Computation},
+         year = "2018",
+        month = "Jul",
+          eid = {arXiv:1807.04489},
+        pages = {arXiv:1807.04489},
+archivePrefix = {arXiv},
+       eprint = {1807.04489},
+ primaryClass = {stat.ML},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2018arXiv180704489E},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
