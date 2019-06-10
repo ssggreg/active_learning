@@ -1,10 +1,10 @@
 class file : class_vogn.py
 
-implements the different Active learning methods
+       implements the different Active learning methods
 
 launch file : class_results_m.py
 
-specify which method to use, where to save, number of experiments, and hyperparamters
+       specify which method to use, where to save, number of experiments, and hyperparameters
 
 # active_learning
 
